@@ -1,0 +1,67 @@
+/* 
+  Localizable.strings
+  MyNCHS
+
+  Created by SaiLalith Kanumuri on 4/15/23.
+  
+*/
+
+"Vista" = "Vista";
+"Your Journey, Your Story" = "Tu Viaje, Tu Historia";
+"SIGN IN WITH GOOGLE" = "INICIAR SESIÓN CON GOOGLE";
+"Home" = "Inicio";
+"Welcome, %@" = "Bienvenido, %@";
+"SUNNY" = "SOLEADO";
+"Semester 1" = "Semestre 1";
+"News" = "Noticias";
+"1st Quarter Closed!" = "¡Cerrado el Primer Trimestre!";
+"Great job everyone for finishing 1/4 of the year!" = "¡Gran trabajo a todos por terminar el 1/4 del año!";
+"1 Nov 2023 • Vista" = "1 Nov 2023 • Vista";
+"School Started" = "Comenzó la Escuela";
+"School is finally in session. Please be sure to have supplies ready!" = "La escuela finalmente está en sesión. ¡Asegúrate de tener tus suministros listos!";
+"6 Sept 2023 • Vista" = "6 Sept 2023 • Vista";
+"AP Collegeboard" = "AP Collegeboard";
+"All 2023 AP Exam Scores have been released!" = "¡Todos los puntajes de los exámenes AP de 2023 han sido publicados!";
+"15 July 2023 • Vista" = "15 Julio 2023 • Vista";
+
+"Network" = "Red";
+"Search" = "Buscar";
+
+"Calendar" = "Calendario";
+
+"Messages" = "Mensajes";
+
+"Your Portfolio" = "Tu Portafolio";
+"Projects" = "Proyectos";
+"Extracurricular & Academic" = "Extracurricular y Académico";
+"Honors" = "Honor";
+"Academic or Non-Academic" = "Académico o No Académico";
+"Athletics" = "Deportes";
+"Sports & Activities" = "Deportes y Actividades";
+"Arts" = "Artes";
+"Crafts & Performances" = "Artesanías y Actuaciones";
+"Clubs" = "Clubes";
+"Roles & Achievements" = "Roles y Logros";
+"Volunteering" = "Voluntariado";
+"Community Service" = "Servicio Comunitario";
+"Coursework" = "Cursos";
+"Honors & Others" = "Honores y Otros";
+"Others" = "Otros";
+"Internships, Research, Jobs, etc" = "Prácticas, Investigación, Trabajos, etc";
+
+"Sign Out" = "CERRAR SESIÓN";
+"About Us" = "Acerca de Nosotros";
+"Terms & Privacy" = "Términos y Privacidad";
+"Notifications" = "Notificaciones";
+"Report a bug" = "Informar de un error";
+"Guides & Tutorials" = "Guías y Tutoriales";
+"Work cited" = "Trabajos Citados";
+"Source Code" = "Código Fuente";
+"Contact Us" = "Contáctenos";
+"Social Media" = "Redes Sociales";
+"Instagram" = "Instagram";
+"Twitter" = "Twitter";
+"Facebook" = "Facebook";
+"Youtube" = "Youtube";
+"Thank you for using our app!" = "¡Gracias por usar nuestra aplicación!";
+"Please don't hesitate to ask any questions." = "Por favor, no dudes en hacer cualquier pregunta.";

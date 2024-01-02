@@ -1,0 +1,67 @@
+/* 
+  Localizable.strings
+  MyNCHS
+
+  Created by SaiLalith Kanumuri on 4/15/23.
+  
+*/
+
+"Vista" = "Vista";
+"Your Journey, Your Story" = "Your Journey, Your Story";
+"SIGN IN WITH GOOGLE" = "SIGN IN WITH GOOGLE";
+"Home" = "Home";
+"Welcome, %@" = "Welcome, %@";
+"SUNNY" = "SUNNY";
+"Semester 1" = "Semester 1";
+"News" = "News";
+"1st Quarter Closed!" = "1st Quarter Closed!";
+"Great job everyone for finishing 1/4 of the year!" = "Great job everyone for finishing 1/4 of the year!";
+"1 Nov 2023 • Vista" = "1 Nov 2023 • Vista";
+"School Started" = "School Started";
+"School is finally in session. Please be sure to have supplies ready!" = "School is finally in session. Please be sure to have supplies ready!";
+"6 Sept 2023 • Vista" = "6 Sept 2023 • Vista";
+"AP Collegeboard" = "AP Collegeboard";
+"All 2023 AP Exam Scores have been released!" = "All 2023 AP Exam Scores have been released!";
+"15 July 2023 • Vista" = "15 July 2023 • Vista";
+
+"Network" = "Network";
+"Search" = "Search";
+
+"Calendar" = "Calendar";
+
+"Messages" = "Messages";
+
+"Your Portfolio" = "Your Portfolio";
+"Projects" = "Projects";
+"Extracurricular & Academic" = "Extracurricular & Academic";
+"Honors" = "Honors";
+"Academic or Non-Academic" = "Academic or Non-Academic";
+"Athletics" = "Athletics";
+"Sports & Activities" = "Sports & Activities";
+"Arts" = "Arts";
+"Crafts & Performances" = "Crafts & Performances";
+"Clubs" = "Clubs";
+"Roles & Achievements" = "Roles & Achievements";
+"Volunteering" = "Volunteering";
+"Community Service" = "Community Service";
+"Coursework" = "Coursework";
+"Honors & Others" = "Honors & Others";
+"Others" = "Others";
+"Internships, Research, Jobs, etc" = "Internships, Research, Jobs, etc";
+
+"Sign Out" = "Sign Out";
+"About Us" = "About Us";
+"Terms & Privacy" = "Terms & Privacy";
+"Notifications" = "Notifications";
+"Report a bug" = "Report a bug";
+"Guides & Tutorials" = "Guides & Tutorials";
+"Work cited" = "Works Cited";
+"Source Code" = "Source Code";
+"Contact Us" = "Contact Us";
+"Social Media" = "Social Media";
+"Instagram" = "Instagram";
+"Twitter" = "Twitter";
+"Facebook" = "Facebook";
+"Youtube" = "Youtube";
+"Thank you for using our app!" = "Thank you for using our app!";
+"Please don't hesitate to ask any questions." = "Please don't hesitate to ask any questions.";

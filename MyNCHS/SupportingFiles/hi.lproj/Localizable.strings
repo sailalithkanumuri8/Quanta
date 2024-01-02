@@ -1,0 +1,67 @@
+/* 
+  Localizable.strings
+  MyNCHS
+
+  Created by SaiLalith Kanumuri on 4/15/23.
+  
+*/
+
+"Vista" = "Vista";
+"Your Journey, Your Story" = "आपकी यात्रा, आपकी कहानी";
+"SIGN IN WITH GOOGLE" = "गूगल के साथ साइन इन करें";
+"Home" = "घर";
+"Welcome, %@" = "स्वागत है, %@";
+"SUNNY" = "सनी";
+"Semester 1" = "सेमेस्टर 1";
+"News" = "समाचार";
+"1st Quarter Closed!" = "1st क्वार्टर बंद हो गया है!";
+"Great job everyone for finishing 1/4 of the year!" = "हर किसी को महीने के 1/4 को समाप्त करने के लिए बढ़िया काम!";
+"1 Nov 2023 • Vista" = "1 नवंबर 2023 • Vista";
+"School Started" = "स्कूल शुरू हो गया है";
+"School is finally in session. Please be sure to have supplies ready!" = "अब आखिरकार स्कूल सत्र में है। कृपया सुनिश्चित करें कि आपके पास सप्लाईज़ तैयार हैं!";
+"6 Sept 2023 • Vista" = "6 सितंबर 2023 • Vista";
+"AP Collegeboard" = "AP कॉलेजबोर्ड";
+"All 2023 AP Exam Scores have been released!" = "सभी 2023 AP परीक्षा स्कोर जारी किए गए हैं!";
+"15 July 2023 • Vista" = "15 जुलाई 2023 • Vista";
+
+"Network" = "नेटवर्क";
+"Search" = "खोज";
+
+"Calendar" = "पंचांग";
+
+"Messages" = "संदेश";
+
+"Your Portfolio" = "आपका पोर्टफोलियो";
+"Projects" = "परियोजनाएँ";
+"Extracurricular & Academic" = "अतिरिक्त और शैक्षिक";
+"Honors" = "सम्मान";
+"Academic or Non-Academic" = "शैक्षिक या गैर-शैक्षिक";
+"Athletics" = "खेलकूद";
+"Sports & Activities" = "खेल और गतिविधियाँ";
+"Arts" = "कला";
+"Crafts & Performances" = "कला और प्रदर्शन";
+"Clubs" = "क्लब्स";
+"Roles & Achievements" = "भूमिकाएँ और उपलब्धियाँ";
+"Volunteering" = "स्वयंसेवी";
+"Community Service" = "समुदाय सेवा";
+"Coursework" = "पाठ्यक्रम";
+"Honors & Others" = "सम्मान और अन्य";
+"Others" = "अन्य";
+"Internships, Research, Jobs, etc" = "इंटर्नशिप, अनुसंधान, नौकरियाँ, आदि";
+
+"Sign Out" = "साइन आउट";
+"About Us" = "हमारे बारे में";
+"Terms & Privacy" = "शर्तें और गोपनीयता";
+"Notifications" = "सूचनाएं";
+"Report a bug" = "एक बग की सूचना दें";
+"Guides & Tutorials" = "मार्गदर्शिकाएं और ट्यूटरियल्स";
+"Work cited" = "काम सारांश";
+"Source Code" = "स्रोत कोड";
+"Contact Us" = "संपर्क करें";
+"Social Media" = "सोशल मीडिया";
+"Instagram" = "Instagram";
+"Twitter" = "Twitter";
+"Facebook" = "Facebook";
+"Youtube" = "Youtube";
+"Thank you for using our app!" = "हमारे एप्लिकेशन का उपयोग करने के लिए धन्यवाद!";
+"Please don't hesitate to ask any questions." = "कृपया किसी भी प्रश्न के लिए हिचकिचाएं नहीं।";

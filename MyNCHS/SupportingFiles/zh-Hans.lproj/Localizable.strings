@@ -1,0 +1,67 @@
+/* 
+  Localizable.strings
+  MyNCHS
+
+  Created by SaiLalith Kanumuri on 4/15/23.
+  
+*/
+
+"Vista" = "Vista";
+"Your Journey, Your Story" = "您的旅程，您的故事";
+"SIGN IN WITH GOOGLE" = "使用Google登录";
+"Home" = "首页";
+"Welcome, %@" = "欢迎，%@";
+"SUNNY" = "晴朗";
+"Semester 1" = "第一学期";
+"News" = "新闻";
+"1st Quarter Closed!" = "第一季度已结束！";
+"Great job everyone for finishing 1/4 of the year!" = "大家做得很好，完成了年度的四分之一！";
+"1 Nov 2023 • Vista" = "2023年11月1日 • Vista";
+"School Started" = "学校已开始";
+"School is finally in session. Please be sure to have supplies ready!" = "学校终于开始了。请确保准备好学习用品！";
+"6 Sept 2023 • Vista" = "2023年9月6日 • Vista";
+"AP Collegeboard" = "AP学院委员会";
+"All 2023 AP Exam Scores have been released!" = "所有2023年AP考试成绩已发布！";
+"15 July 2023 • Vista" = "2023年7月15日 • Vista";
+
+"Network" = "网络";
+"Search" = "搜索";
+
+"Calendar" = "日历";
+
+"Messages" = "消息";
+
+"Your Portfolio" = "您的投资组合";
+"Projects" = "项目";
+"Extracurricular & Academic" = "课外与学术";
+"Honors" = "荣誉";
+"Academic or Non-Academic" = "学术或非学术";
+"Athletics" = "体育";
+"Sports & Activities" = "体育与活动";
+"Arts" = "艺术";
+"Crafts & Performances" = "手工艺品与表演";
+"Clubs" = "俱乐部";
+"Roles & Achievements" = "角色与成就";
+"Volunteering" = "志愿服务";
+"Community Service" = "社区服务";
+"Coursework" = "课程";
+"Honors & Others" = "荣誉与其他";
+"Others" = "其他";
+"Internships, Research, Jobs, etc" = "实习、研究、工作等";
+
+"Sign Out" = "退出";
+"About Us" = "关于我们";
+"Terms & Privacy" = "条款与隐私";
+"Notifications" = "通知";
+"Report a bug" = "报告错误";
+"Guides & Tutorials" = "指南与教程";
+"Work cited" = "参考文献";
+"Source Code" = "源代码";
+"Contact Us" = "联系我们";
+"Social Media" = "社交媒体";
+"Instagram" = "Instagram";
+"Twitter" = "Twitter";
+"Facebook" = "Facebook";
+"Youtube" = "Youtube";
+"Thank you for using our app!" = "感谢您使用我们的应用程序！";
+"Please don't hesitate to ask any questions." = "请随时提出任何问题。";
