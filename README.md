@@ -1,4 +1,4 @@
-# MyNCHS 2.5
+# Vista
 ![Image](https://github.com/BoltOfLightning/MyNCHSFBLA/blob/main/README_assets/Screenshot%202023-06-10%20at%2011.50.44%20AM.png)
 
 An FBLA Mobile Application Development Project
@@ -9,17 +9,6 @@ MyNCHS is an app for the North Creek High School Community. It holds many differ
 
 ## Issue
 We are from North Creek High School and are founders of MyNCHS, an app geared towards the North Creek community to stay informed and organized. We know how time-consuming it is for parents to find information about their school. That’s why we developed MyNCHS, the new way for parents to stay informed about North Creek High School fast and seamlessly.
-
-## Testimonials
-Our app has been praised by many for its simple and efficient way to share school related info to parents, in a way that isnt finicky for all. Here are some reviews.
-#### "This app has made my life so much easier, genuinely. I've been very mixed with the platforms the school uses, and how disconnected it all is. However, with MyNCHS, I've been able to save so much time by having it in one place." - Karthik J
-
-#### "This app is a time-saver and a lifesaver! It's incredibly efficient at keeping all my important information and tasks in one place. I no longer have to waste time searching through different apps or platforms. Whether it's managing my calender, tracking my childs grades and more, this app does it all. It's a must-have for anyone who hates wasting their time!" - Prefers to Stay Anonymous
-
-#### "While this app is geared for parents, I also found it quite useful as a student. I can set my reminders on calenders, check my grades, catch up on sports, and do many more with this app. I'm super grateful that this exists in my life." - Ryan P
-
-#### "I speedran my school day using this with maximum efficiency. Wonderful tool, a lifesaver" - Vamshi P
-
 
 ## Installation
 ```
@@ -116,7 +105,7 @@ We have put in place reasonable technological and organizational safeguards to g
 Your data will be kept on file for as long as is required to fulfill our legal requirements and give you access to our app. Additionally, we could keep your information for a reasonable amount of time after you stop using our app in order to enhance it and fight fraud or other nefarious acts.
 
 #### Conclusion
-Your privacy is important to us, and it is something we take seriously. Please contact us at rithinkarthik13@gmail.com if you have any inquiries regarding our privacy statement or would like to exercise your rights with regard to your data.
+Your privacy is important to us, and it is something we take seriously. Please contact us at sailalithkanumuri@gmail.com if you have any inquiries regarding our privacy statement or would like to exercise your rights with regard to your data.
 
 ## Future Plans
 - Offer light and dark modes
@@ -129,19 +118,6 @@ Your privacy is important to us, and it is something we take seriously. Please c
 	- Home screen widget
 - Additional support for Mac
 - Text to speech
-
-## Acknowledgments
-We used many different sources to code and learn. Thanks to the individuals or groups below for making us able to code this app.
-
-We thank our FBLA advisor, Mr.Barnes, for being well versed and supportive to all of us.
-
-We thank Mr. Stride, our computer science teacher, for giving us valuable feeback on our app and presentation.
-
-We thank Dhanush Eashwar, for giving us helpful advice and feedback along the way.
-
-We used previous FBLA NLC Finalist Presentations to make ours better. We thank them for providing these for public use.
-
-We thank FBLA-PBL for giving us an amazing learning oppurtunity, and for conducting this Mobile Application Development competition.
 
 ## Copyright
 Any unoriginal images used in our project are protected under [Fair Use and Other Educational Uses.](https://www.lib.uchicago.edu/copyrightinfo/fairuse.html)
