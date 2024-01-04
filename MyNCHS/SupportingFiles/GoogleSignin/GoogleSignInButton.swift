@@ -1,6 +1,6 @@
 //
 //  GoogleSignInButton.swift
-//  GoogleSignInPage
+//  Quanta
 //
 //  Created by SaiLalith Kanumuri on 7/1/22.
 //

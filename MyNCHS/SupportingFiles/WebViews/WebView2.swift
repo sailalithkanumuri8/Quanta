@@ -1,8 +1,8 @@
 //
 //  WebView2.swift
-//  MyNCHS
+//  Quanta
 //
-//  Created by SaiLalith Kanumuri on 4/12/23.
+//  Created by SaiLalith Kanumuri on 12/31/23.
 //
 
 import SwiftUI

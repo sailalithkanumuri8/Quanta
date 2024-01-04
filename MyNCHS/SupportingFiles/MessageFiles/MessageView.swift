@@ -1,6 +1,6 @@
 //
 //  MessageView.swift
-//  Vista
+//  Quanta
 //
 //  Created by Manvith Kothapalli on 12/23/23.
 //

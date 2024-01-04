@@ -1,6 +1,6 @@
 //
 //  Event.swift
-//  MyNCHS
+//  Quanta
 //
 //  Created by SaiLalith Kanumuri on 12/17/22.
 //

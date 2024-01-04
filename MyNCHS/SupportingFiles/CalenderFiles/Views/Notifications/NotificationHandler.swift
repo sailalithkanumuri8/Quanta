@@ -1,8 +1,8 @@
 //
 //  NotificationHandler.swift
-//  MyNCHS
+//  Quanta
 //
-//  Created by SaiLalith Kanumuri on 1/2/23.
+//  Created by SaiLalith Kanumuri on 1/2/24.
 //
 
 import SwiftUI

@@ -1,6 +1,6 @@
 //
 //  LinkNews.swift
-//  MyNCHS
+//  Quanta
 //
 //  Created by SaiLalith Kanumuri on 12/30/22.
 //

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "277170D8286E763600FC0440"
-               BuildableName = "Vista.app"
-               BlueprintName = "Vista"
-               ReferencedContainer = "container:Vista.xcodeproj">
+               BuildableName = "Quanta.app"
+               BlueprintName = "Quanta"
+               ReferencedContainer = "container:Quanta.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -44,9 +44,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "277170D8286E763600FC0440"
-            BuildableName = "Vista.app"
-            BlueprintName = "Vista"
-            ReferencedContainer = "container:Vista.xcodeproj">
+            BuildableName = "Quanta.app"
+            BlueprintName = "Quanta"
+            ReferencedContainer = "container:Quanta.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -61,9 +61,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "277170D8286E763600FC0440"
-            BuildableName = "Vista.app"
-            BlueprintName = "Vista"
-            ReferencedContainer = "container:Vista.xcodeproj">
+            BuildableName = "Quanta.app"
+            BlueprintName = "Quanta"
+            ReferencedContainer = "container:Quanta.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

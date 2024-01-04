@@ -1,6 +1,6 @@
 //
 //  LinkPortfolio.swift
-//  Vista
+//  Quanta
 //
 //  Created by SaiLalith Kanumuri on 12/29/23.
 //

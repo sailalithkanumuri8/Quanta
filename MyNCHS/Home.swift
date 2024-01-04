@@ -1,6 +1,6 @@
 //
 //  Home.swift
-//  Vista
+//  Quanta
 //
 //  Created by SaiLalith Kanumuri on 12/19/23.
 //

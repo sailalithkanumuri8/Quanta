@@ -1,6 +1,6 @@
 //
 //  LinkLogos.swift
-//  Vista
+//  Quanta
 //
 //  Created by SaiLalith Kanumuri on 1/1/24.
 //

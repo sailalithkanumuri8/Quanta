@@ -63,7 +63,7 @@
 		2731833A291227C9005082D9 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		27318340291234E0005082D9 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
 		276F8D8529E7302100BB4D69 /* WebView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView2.swift; sourceTree = "<group>"; };
-		277170D9286E763600FC0440 /* Vista.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vista.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		277170D9286E763600FC0440 /* Quanta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quanta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		277170DC286E763600FC0440 /* MyNCHSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNCHSApp.swift; sourceTree = "<group>"; };
 		277170DE286E763600FC0440 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		277170E0286E763800FC0440 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -155,7 +155,7 @@
 		277170DA286E763600FC0440 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				277170D9286E763600FC0440 /* Vista.app */,
+				277170D9286E763600FC0440 /* Quanta.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -312,9 +312,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		277170D8286E763600FC0440 /* Vista */ = {
+		277170D8286E763600FC0440 /* Quanta */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 277170E7286E763800FC0440 /* Build configuration list for PBXNativeTarget "Vista" */;
+			buildConfigurationList = 277170E7286E763800FC0440 /* Build configuration list for PBXNativeTarget "Quanta" */;
 			buildPhases = (
 				277170D5286E763600FC0440 /* Sources */,
 				277170D6286E763600FC0440 /* Frameworks */,
@@ -324,7 +324,7 @@
 			);
 			dependencies = (
 			);
-			name = Vista;
+			name = Quanta;
 			packageProductDependencies = (
 				277170EB286F7B7900FC0440 /* GoogleSignIn */,
 				277170ED286F7B7900FC0440 /* GoogleSignInSwift */,
@@ -333,7 +333,7 @@
 				27B219BD2B37C83600C81E2C /* FirebaseFirestoreSwift */,
 			);
 			productName = GoogleSignInPage;
-			productReference = 277170D9286E763600FC0440 /* Vista.app */;
+			productReference = 277170D9286E763600FC0440 /* Quanta.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -351,7 +351,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 277170D4286E763600FC0440 /* Build configuration list for PBXProject "Vista" */;
+			buildConfigurationList = 277170D4286E763600FC0440 /* Build configuration list for PBXProject "Quanta" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -371,7 +371,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				277170D8286E763600FC0440 /* Vista */,
+				277170D8286E763600FC0440 /* Quanta */,
 			);
 		};
 /* End PBXProject section */
@@ -641,7 +641,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		277170D4286E763600FC0440 /* Build configuration list for PBXProject "Vista" */ = {
+		277170D4286E763600FC0440 /* Build configuration list for PBXProject "Quanta" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				277170E5286E763800FC0440 /* Debug */,
@@ -650,7 +650,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		277170E7286E763800FC0440 /* Build configuration list for PBXNativeTarget "Vista" */ = {
+		277170E7286E763800FC0440 /* Build configuration list for PBXNativeTarget "Quanta" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				277170E8286E763800FC0440 /* Debug */,

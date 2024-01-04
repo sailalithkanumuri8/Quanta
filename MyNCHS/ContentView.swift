@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Vista
+//  Quanta
 //
 //  Updated by SaiLalith Kanumuri on 12/18/23.
 //

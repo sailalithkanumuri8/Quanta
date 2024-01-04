@@ -1,6 +1,6 @@
 //
 //  People.swift
-//  Vista
+//  Quanta
 //
 //  Created by SaiLalith Kanumuri on 12/22/23.
 //
@@ -58,7 +58,7 @@ struct People: View {
                     
                     // Search bar which dynamically changes the items below it
                     SearchBar(searchText: $searchText)
-                        .padding(.bottom, 8)
+                        .padding(.bottom, 5)
                     
                     // All the items below the search to by dynamically changed
                     ForEach(filteredUsers.indices, id: \.self) { index in

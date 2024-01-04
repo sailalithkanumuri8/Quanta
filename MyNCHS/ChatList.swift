@@ -1,6 +1,6 @@
 //
 //  User.swift
-//  Vista
+//  Quanta
 //
 //  Created by Manvith Kothapalli on 12/21/23.
 //

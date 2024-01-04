@@ -1,6 +1,6 @@
 //
 //  Info.swift
-//  Vista
+//  Quanta
 //
 //  Created by SaiLalith Kanumuri on 12/28/23.
 //
@@ -22,6 +22,8 @@ struct Info: View {
     @State var showWebView3 = false
     @State var showWebView4 = false
     @State var showWebView5 = false
+    @State var showWebView6 = false
+    @State var showWebView7 = false
     
     var isCalendar: Bool
     // Allows app to send notifications
@@ -70,14 +72,29 @@ struct Info: View {
                         .offset(y: 20)
                         
                         HStack {
-                            Text("About Us")
-                                .font(Font.custom("Quicksand-Regular", size: 12))
-                                .padding()
+                            Button {
+                                showWebView6.toggle()
+                            } label: {
+                                Text("About Us")
+                                    .font(Font.custom("Quicksand-Regular", size: 12))
+                                    .foregroundColor(.black)
+                                    .padding()
+                            }
+                            .sheet(isPresented: $showWebView6) {
+                                WebView(url: URL(string: "https://docs.google.com/document/d/1BLgESzNvdKA9XlwE5CMS83ijNxPuzRDAA46Vzdc2M7A/edit?usp=sharing")!)
+                            }
                             
-                            Text("Terms & Privacy")
-                                .font(Font.custom("Quicksand-Regular", size: 12))
-                                .padding()
-                            
+                            Button {
+                                showWebView7.toggle()
+                            } label: {
+                                Text("Terms & Privacy")
+                                    .font(Font.custom("Quicksand-Regular", size: 12))
+                                    .foregroundColor(.black)
+                                    .padding()
+                            }
+                            .sheet(isPresented: $showWebView7) {
+                                WebView(url: URL(string: "https://docs.google.com/document/d/1BLgESzNvdKA9XlwE5CMS83ijNxPuzRDAA46Vzdc2M7A/edit?usp=sharing")!)
+                            }
                         }
                         .offset(y: 10)
                     }
@@ -200,7 +217,7 @@ struct Info: View {
                                 }
                             }
                             .sheet(isPresented: $showWebView4) {
-                                WebView(url: URL(string: "https://github.com/BoltOfLightning/MyNCHSFBLA")!)
+                                WebView(url: URL(string: "https://github.com/sailalithkanumuri8/Vista")!)
                             }
                         }
                         

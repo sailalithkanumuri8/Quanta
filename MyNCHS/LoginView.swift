@@ -1,6 +1,6 @@
 //
 //  LoginView.swift
-//  Vista
+//  Quanta
 //
 //  Created by SaiLalith Kanumuri on 12/18/23.
 //
@@ -29,24 +29,24 @@ struct LoginView: View {
                 Image("Logo")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .frame(width: 450, height: 450)
+                    .frame(width: 350, height: 350)
                     .clipShape(Circle())
                     .shadow(radius: 5)
-                    .offset(y: -20)
+                    .offset(x: -5, y: -35)
 
-                Text("Vista")
+                Text("Quanta")
                     .fontWeight(.black)
                     .foregroundColor(.white)
                     .font(Font.custom("Quicksand-Bold", size: 50))
                     .multilineTextAlignment(.center)
-                    .offset(y: -200)
+                    .offset(y: -160)
                 
                 Text("Your Journey, Your Story")
                     .fontWeight(.light)
                     .font(Font.custom("Quicksand-Regular", size: 20))
                     .multilineTextAlignment(.center)
                     .foregroundColor(.white)
-                    .offset(y: -200)
+                    .offset(y: -160)
                 
                 // This is the Google sign in button on the page
                 // It uses the viewModel to authenticate sign in
@@ -75,7 +75,7 @@ struct LoginView: View {
                     .background(.white)
                     .cornerRadius(50)
                 }
-                .offset(y: -190)
+                .offset(y: -150)
             }
         }
     }
