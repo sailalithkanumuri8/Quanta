@@ -2,7 +2,7 @@
 ![Image](https://github.com/BoltOfLightning/MyNCHSFBLA/blob/main/README_assets/Screenshot%202023-06-10%20at%2011.50.44%20AM.png)
 
 An FBLA Mobile Application Development Project
-By Sai Lalith Kanumuri, Bryan Nie, and Rithin Karthik
+By Sai Lalith Kanumuri, Manvith Kothapalli, and Bryan Nie
 
 ## Abstract
 Quanta will allow high school students to connect with their peers and share their high school portfolios. The portfolio will allow students to display their volunteer hours, courses, jobs, internships, research, projects, arts, athletics, and clubs/organizations they are part of. This enables students to share their high school resume with their peers, teachers, and parents without being intimidated by the achievements of more senior users like LinkedIn. The app has a homepage where they can keep track of major events like quarter ending, AP scores release, and more. It has a calendar that they can use to jot down important dates and events. The app also has a messaging feature so students can communicate with their peers about their portfolios. Overall, Quanta will enable students to be more confident about building their portfolios and sharing their high school experiences whilst expanding their network.
@@ -68,9 +68,8 @@ Your privacy is important to us, and it is something we take seriously. Please c
 
 ## Future Plans
 - Offer light and dark modes
-- Android App Support
 - Change the menu bar
-- In-built messaging feature
+- In-built posts
 - Add more features
 	- Announcements
 	- In-built note space
