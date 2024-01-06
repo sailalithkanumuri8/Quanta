@@ -1,5 +1,5 @@
 # Quanta
-![Image](https://github.com/BoltOfLightning/MyNCHSFBLA/blob/main/README_assets/Screenshot%202023-06-10%20at%2011.50.44%20AM.png)
+![Image](https://github.com/BoltOfLightning/MyNCHSFBLA/blob/main/README_assets/QuantaOpeningSlide.jpg)
 
 An FBLA Mobile Application Development Project
 By Sai Lalith Kanumuri, Manvith Kothapalli, and Bryan Nie
