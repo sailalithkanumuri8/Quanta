@@ -10,8 +10,6 @@ import SwiftUI
 // Used to make the portfolio activity buttons buttons
 // This is an class that can be instanciated to an object that takes paramters
 // Exists to use less lines of repetitive code to perform the same task
-import SwiftUI
-
 struct LinkPortfolio: View {
     var image: String
     var text1: String

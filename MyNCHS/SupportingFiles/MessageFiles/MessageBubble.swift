@@ -31,7 +31,7 @@ struct MessageBubble: View {
 
             // When the message bubble is pressed, it shows the time
             if showTime {
-                Text("(message.timestamp.formatted(.dateTime.hour().minute()))")
+                Text(message.timestamp.formatted(.dateTime.hour().minute()))
                     .font(.caption2)
                     .foregroundColor(.gray)
                     .padding(message.received ? .leading : .trailing, 25)

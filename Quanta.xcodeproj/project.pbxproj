@@ -11,6 +11,7 @@
 		2731833929122778005082D9 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2731833829122778005082D9 /* Menu.swift */; };
 		2731833B291227C9005082D9 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2731833A291227C9005082D9 /* Home.swift */; };
 		27318341291234E0005082D9 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27318340291234E0005082D9 /* Info.swift */; };
+		27359D842BC5F0C600059B32 /* Opportunities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27359D832BC5F0C600059B32 /* Opportunities.swift */; };
 		276F8D8629E7302100BB4D69 /* WebView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276F8D8529E7302100BB4D69 /* WebView2.swift */; };
 		277170DD286E763600FC0440 /* MyNCHSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277170DC286E763600FC0440 /* MyNCHSApp.swift */; };
 		277170DF286E763600FC0440 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277170DE286E763600FC0440 /* ContentView.swift */; };
@@ -52,6 +53,9 @@
 		27B219C22B37C92A00C81E2C /* ChatList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B219C12B37C92A00C81E2C /* ChatList.swift */; };
 		27B219C42B37CA1B00C81E2C /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B219C32B37CA1B00C81E2C /* MessageView.swift */; };
 		27B2B1E4291C7FFF0072A09D /* Calender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B2B1E3291C7FFF0072A09D /* Calender.swift */; };
+		27BB0B8D2BD3430700796958 /* ChatBot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BB0B8C2BD3430700796958 /* ChatBot.swift */; };
+		27BB0B8F2BD34A4500796958 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BB0B8E2BD34A4500796958 /* ChatViewModel.swift */; };
+		27BB0B922BD34AD200796958 /* OpenAISwift in Frameworks */ = {isa = PBXBuildFile; productRef = 27BB0B912BD34AD200796958 /* OpenAISwift */; };
 		27CB1E002963B0E2002F753F /* NotificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CB1DFF2963B0E2002F753F /* NotificationHandler.swift */; };
 		27F98B5029EB9BB6009F5695 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27F98B5229EB9BB6009F5695 /* Localizable.strings */; };
 		27FCB1352B439F33005EE10E /* LinkLogos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FCB1342B439F33005EE10E /* LinkLogos.swift */; };
@@ -62,6 +66,7 @@
 		2731833829122778005082D9 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		2731833A291227C9005082D9 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		27318340291234E0005082D9 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		27359D832BC5F0C600059B32 /* Opportunities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Opportunities.swift; sourceTree = "<group>"; };
 		276F8D8529E7302100BB4D69 /* WebView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView2.swift; sourceTree = "<group>"; };
 		277170D9286E763600FC0440 /* Quanta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quanta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		277170DC286E763600FC0440 /* MyNCHSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNCHSApp.swift; sourceTree = "<group>"; };
@@ -99,6 +104,8 @@
 		27B219C12B37C92A00C81E2C /* ChatList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatList.swift; sourceTree = "<group>"; };
 		27B219C32B37CA1B00C81E2C /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		27B2B1E3291C7FFF0072A09D /* Calender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calender.swift; sourceTree = "<group>"; };
+		27BB0B8C2BD3430700796958 /* ChatBot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBot.swift; sourceTree = "<group>"; };
+		27BB0B8E2BD34A4500796958 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
 		27CB1DFF2963B0E2002F753F /* NotificationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationHandler.swift; sourceTree = "<group>"; };
 		27F98B5129EB9BB6009F5695 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		27F98B5329EBA1B8009F5695 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
@@ -116,6 +123,7 @@
 				277170EC286F7B7900FC0440 /* GoogleSignIn in Frameworks */,
 				27B219BC2B37C80600C81E2C /* FirebaseFirestore in Frameworks */,
 				27B219BA2B37C7FC00C81E2C /* FirebaseAuth in Frameworks */,
+				27BB0B922BD34AD200796958 /* OpenAISwift in Frameworks */,
 				277170EE286F7B7900FC0440 /* GoogleSignInSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,6 +138,7 @@
 				27740031295F6DF600E9FEBB /* LinkNews.swift */,
 				272BCAC32B3FC85E00D0CE7B /* LinkPortfolio.swift */,
 				27FCB1342B439F33005EE10E /* LinkLogos.swift */,
+				27BB0B8E2BD34A4500796958 /* ChatViewModel.swift */,
 			);
 			path = Objects;
 			sourceTree = "<group>";
@@ -170,8 +179,10 @@
 				2731833A291227C9005082D9 /* Home.swift */,
 				27B219A12B361B9700C81E2C /* People.swift */,
 				27B2B1E3291C7FFF0072A09D /* Calender.swift */,
-				27B2199D2B33FEE300C81E2C /* Portfolio.swift */,
+				27359D832BC5F0C600059B32 /* Opportunities.swift */,
+				27BB0B8C2BD3430700796958 /* ChatBot.swift */,
 				27B219C12B37C92A00C81E2C /* ChatList.swift */,
+				27B2199D2B33FEE300C81E2C /* Portfolio.swift */,
 				27318340291234E0005082D9 /* Info.swift */,
 				2731833829122778005082D9 /* Menu.swift */,
 				277170E0286E763800FC0440 /* Assets.xcassets */,
@@ -331,6 +342,7 @@
 				27B219B92B37C7FC00C81E2C /* FirebaseAuth */,
 				27B219BB2B37C80600C81E2C /* FirebaseFirestore */,
 				27B219BD2B37C83600C81E2C /* FirebaseFirestoreSwift */,
+				27BB0B912BD34AD200796958 /* OpenAISwift */,
 			);
 			productName = GoogleSignInPage;
 			productReference = 277170D9286E763600FC0440 /* Quanta.app */;
@@ -366,6 +378,7 @@
 			packageReferences = (
 				277170EA286F7B7800FC0440 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
 				277170EF286F93AA00FC0440 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				27BB0B902BD34AD200796958 /* XCRemoteSwiftPackageReference "OpenAISwift" */,
 			);
 			productRefGroup = 277170DA286E763600FC0440 /* Products */;
 			projectDirPath = "";
@@ -405,11 +418,13 @@
 				27CB1E002963B0E2002F753F /* NotificationHandler.swift in Sources */,
 				27AC47F52951294F007E0485 /* DaysEvents.swift in Sources */,
 				27B219A22B361B9700C81E2C /* People.swift in Sources */,
+				27BB0B8D2BD3430700796958 /* ChatBot.swift in Sources */,
 				27B219B32B37C5C200C81E2C /* MessageBubble.swift in Sources */,
 				27FCB1352B439F33005EE10E /* LinkLogos.swift in Sources */,
 				277170F8286F99B100FC0440 /* GoogleSignInButton.swift in Sources */,
 				272BCAC42B3FC85E00D0CE7B /* LinkPortfolio.swift in Sources */,
 				27B219B12B37C5BC00C81E2C /* MessageField.swift in Sources */,
+				27BB0B8F2BD34A4500796958 /* ChatViewModel.swift in Sources */,
 				27AC47F0295125BF007E0485 /* CalendarView.swift in Sources */,
 				277170DF286E763600FC0440 /* ContentView.swift in Sources */,
 				27B219A02B350AF600C81E2C /* User.swift in Sources */,
@@ -431,6 +446,7 @@
 				276F8D8629E7302100BB4D69 /* WebView2.swift in Sources */,
 				27B219C22B37C92A00C81E2C /* ChatList.swift in Sources */,
 				27B2B1E4291C7FFF0072A09D /* Calender.swift in Sources */,
+				27359D842BC5F0C600059B32 /* Opportunities.swift in Sources */,
 				27AC47EB295125BF007E0485 /* EventFormView.swift in Sources */,
 				27B219AB2B37C5A900C81E2C /* Extensions.swift in Sources */,
 				27AC47EA295125BF007E0485 /* EventFormViewModel.swift in Sources */,
@@ -678,6 +694,14 @@
 				minimumVersion = 10.0.0;
 			};
 		};
+		27BB0B902BD34AD200796958 /* XCRemoteSwiftPackageReference "OpenAISwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adamrushy/OpenAISwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -705,6 +729,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 277170EF286F93AA00FC0440 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestoreSwift;
+		};
+		27BB0B912BD34AD200796958 /* OpenAISwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 27BB0B902BD34AD200796958 /* XCRemoteSwiftPackageReference "OpenAISwift" */;
+			productName = OpenAISwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

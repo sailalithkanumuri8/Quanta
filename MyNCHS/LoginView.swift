@@ -46,7 +46,7 @@ struct LoginView: View {
                     .font(Font.custom("Quicksand-Regular", size: 20))
                     .multilineTextAlignment(.center)
                     .foregroundColor(.white)
-                    .offset(y: -160)
+                    .offset(y: -155)
                 
                 // This is the Google sign in button on the page
                 // It uses the viewModel to authenticate sign in

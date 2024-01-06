@@ -47,12 +47,12 @@ struct Menu: View {
                 }.tag(2)
             
             // When clicked on this button, it will go to the messages page
-            ChatList().navigationTitle("x")
+            Opportunities().navigationTitle("x")
                 .tabItem {
                     if selection == 1 {
-                        Image(systemName: "message.fill")
+                        Image(systemName: "book.fill")
                     } else {
-                        Image(systemName: "message")
+                        Image(systemName: "book")
                     }
                 }.tag(3)
 

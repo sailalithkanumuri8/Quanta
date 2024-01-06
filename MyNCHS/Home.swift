@@ -25,13 +25,26 @@ struct Home: View {
                     
                     Spacer()
                     
+                    NavigationLink(destination: ChatBot(viewModel: ChatViewModel())) {
+                        Text("GPT")
+                            .font(Font.custom("Quicksand-Bold", size: 10))
+                            .foregroundColor(.white)
+                            .padding(.horizontal, 10)
+                            .padding(.vertical, 5)
+                            .background(Color("Color"))
+                            .cornerRadius(15)
+                            .frame(width: 50, height: 50, alignment: .center)
+                    }
+                    .padding(.trailing, 5)
+                    .offset(x: -15, y: 15)
+                    
                     // User's profile image
                     NavigationLink(destination: Info(isCalendar: false)) {
                         NetworkImage(url: user?.profile?.imageURL(withDimension: 200))
                             .aspectRatio(contentMode: .fit)
                             .frame(width: 50, height: 50, alignment: .center)
                             .cornerRadius(30)
-                            .offset(x: -20, y: 10)
+                            .offset(x: -20, y: 12)
                     }
                 }
                 
