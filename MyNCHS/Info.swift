@@ -24,6 +24,7 @@ struct Info: View {
     @State var showWebView5 = false
     @State var showWebView6 = false
     @State var showWebView7 = false
+    @State var showWebView8 = false
     
     var isCalendar: Bool
     // Allows app to send notifications
@@ -83,18 +84,32 @@ struct Info: View {
                             .sheet(isPresented: $showWebView6) {
                                 WebView(url: URL(string: "https://docs.google.com/document/d/1BLgESzNvdKA9XlwE5CMS83ijNxPuzRDAA46Vzdc2M7A/edit?usp=sharing")!)
                             }
+                            .offset(x: 10)
                             
                             Button {
                                 showWebView7.toggle()
                             } label: {
-                                Text("Terms & Privacy")
+                                Text("Terms & Conditions")
                                     .font(Font.custom("Quicksand-Regular", size: 12))
                                     .foregroundColor(.black)
                                     .padding()
                             }
                             .sheet(isPresented: $showWebView7) {
-                                WebView(url: URL(string: "https://docs.google.com/document/d/1BLgESzNvdKA9XlwE5CMS83ijNxPuzRDAA46Vzdc2M7A/edit?usp=sharing")!)
+                                WebView(url: URL(string: "https://docs.google.com/document/d/1QeLNoam6Adwm0ouw_Ds530zh09oq4INc4i6twdTklBE/edit?usp=sharing")!)
                             }
+                            
+                            Button {
+                                showWebView8.toggle()
+                            } label: {
+                                Text("Privacy")
+                                    .font(Font.custom("Quicksand-Regular", size: 12))
+                                    .foregroundColor(.black)
+                                    .padding()
+                            }
+                            .sheet(isPresented: $showWebView8) {
+                                WebView(url: URL(string: "https://docs.google.com/document/d/1r54i55cSNpiXVAb1q8PSXOFKMVGYNpsa_i9eemuiBS4/edit?usp=sharing")!)
+                            }
+                            .offset(x: -10)
                         }
                         .offset(y: 10)
                     }
@@ -169,7 +184,7 @@ struct Info: View {
                                 }
                             }
                             .sheet(isPresented: $showWebView2) {
-                                WebView(url: URL(string: "https://docs.google.com/document/d/1g8Oh0PrIpdjN9C6eT8H6-ci4KRpU0skzXFcHfyjMTR4/edit?usp=sharing")!)
+                                WebView(url: URL(string: "https://docs.google.com/document/d/1ixJjH5SP-3tZaW_GN46iUN2jXJmOkAT682zsRpP2PYE/edit?usp=sharing")!)
                             }
                         }
                         
@@ -180,7 +195,7 @@ struct Info: View {
                                 .frame(width: 260, alignment: .leading)
                             
                             Button {
-                                showWebView2.toggle()
+                                showWebView3.toggle()
                             } label: {
                                 VStack {
                                     Text(">")
@@ -192,8 +207,8 @@ struct Info: View {
                                         .cornerRadius(40)
                                 }
                             }
-                            .sheet(isPresented: $showWebView2) {
-                                WebView(url: URL(string: "https://docs.google.com/document/d/1g8Oh0PrIpdjN9C6eT8H6-ci4KRpU0skzXFcHfyjMTR4/edit?usp=sharing")!)
+                            .sheet(isPresented: $showWebView3) {
+                                WebView(url: URL(string: "https://docs.google.com/document/d/1Rv2X4D7dSiqXFhPkCN6jXLXthg1qIQrX/edit")!)
                             }
                         }
                         
@@ -204,7 +219,7 @@ struct Info: View {
                                 .frame(width: 260, alignment: .leading)
                             
                             Button {
-                                showWebView3.toggle()
+                                showWebView4.toggle()
                             } label: {
                                 VStack {
                                     Text(">")
@@ -228,7 +243,7 @@ struct Info: View {
                                 .frame(width: 260, alignment: .leading)
                             
                             Button {
-                                showWebView4.toggle()
+                                showWebView5.toggle()
                             } label: {
                                 VStack {
                                     Text(">")

@@ -47,10 +47,10 @@ struct Home: View {
                         // Gets the date and displays it
                         VStack {
                             HStack {
-                                Image(systemName: "sun.max.fill")
+                                Image(systemName: "cloud")
                                     .renderingMode(.original)
                                 
-                                Text("SUNNY")
+                                Text("CLOUDY")
                                     .font(Font.custom("Quicksand-Bold", size: 10))
                             }
                             
