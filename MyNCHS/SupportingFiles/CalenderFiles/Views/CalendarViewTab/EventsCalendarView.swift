@@ -35,6 +35,23 @@ struct EventsCalendarView: View {
 
                             Spacer()
                             
+                            if #available(iOS 17.0, *) {
+                                NavigationLink(destination: ChatBot()) {
+                                    Text("Gemini")
+                                        .font(Font.custom("Quicksand-Bold", size: 10))
+                                        .foregroundColor(.white)
+                                        .padding(.horizontal, 10)
+                                        .padding(.vertical, 5)
+                                        .background(Color("Color"))
+                                        .cornerRadius(15)
+                                        .frame(width: 70, height: 50, alignment: .center)
+                                }
+                                .padding(.trailing, 5)
+                                .offset(x: 25, y: 10)
+                            } else {
+                                // Fallback on earlier versions
+                            }
+                            
                             // Allows access to add new events
                             Button {
                                 formType = .new

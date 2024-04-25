@@ -14,6 +14,7 @@ struct Portfolio: View {
     
     // Current instance of the user on the app
     private let user = GIDSignIn.sharedInstance.currentUser
+    @State var showWebView = false
     
     // Each activity in portfolio
     struct Item {
@@ -35,7 +36,7 @@ struct Portfolio: View {
     // Data for the current user
     @State private var sections: [Section] = [
         Section(title: "Projects", image: "newspaper.fill", description: "Extracurricular & Academic", items: [
-            Item(title: "GreenAct", description: "Description of Project 1."),
+            Item(title: "GreenAct", description: "Planted 50+ trees and helped 2 business owners with Sustainable energy consumption"),
             Item(title: "FBLA Mobile Application Development", description: "Built an app to keep track of students' portfolio"),
             Item(title: "FBLA Business Ethics", description: "Presented a business issue and proposed a solution")
         ], showingSheet: false, newTitle: "", newDescription: ""),
@@ -84,15 +85,27 @@ struct Portfolio: View {
         NavigationView {
             ScrollView {
                 VStack {
-                    // Collects user profile image from Google Sign In
-                    NavigationLink(destination: Info(isCalendar: false)) {
-                        NetworkImage(url: user?.profile?.imageURL(withDimension: 200))
-                            .aspectRatio(contentMode: .fit)
-                            .frame(width: 100, height: 100)
-                            .cornerRadius(50)
-                            .padding(.top, 40)
+                    HStack {
+                        // Collects user profile image from Google Sign In
+                        NavigationLink(destination: Info(isCalendar: false)) {
+                            NetworkImage(url: user?.profile?.imageURL(withDimension: 200))
+                                .aspectRatio(contentMode: .fit)
+                                .frame(width: 100, height: 100)
+                                .cornerRadius(50)
+                                .padding(.top, 40)
+                        }
+                        .offset(x: 15)
+                        
+                        Button {
+                            showWebView.toggle()
+                        } label: {
+                            Image(systemName: "rectangle.portrait.and.arrow.right")
+                        }
+                        .sheet(isPresented: $showWebView) {
+                            WebView(url: URL(string: "https://drive.google.com/file/d/1RgiUASM5yMyCKKIRzWX2wX0G2sQO_LrE/view?usp=sharing")!)
+                        }
+                        .offset(x: 20, y: 20)
                     }
-                    
                     Text("Your Portfolio")
                         .font(Font.custom("Quicksand-Bold", size: 40))
                         .padding(5)
@@ -153,7 +166,24 @@ struct SectionView: View {
                 HStack {
                     Text(section.title)
                         .font(Font.custom("Quicksand-Bold", size: 30))
-                        .frame(width: 280, alignment: .leading)
+                        .frame(width: 200, alignment: .leading)
+                    
+                    if #available(iOS 17.0, *) {
+                        NavigationLink(destination: ChatBot()) {
+                            Text("Gemini")
+                                .font(Font.custom("Quicksand-Bold", size: 10))
+                                .foregroundColor(.white)
+                                .padding(.horizontal, 10)
+                                .padding(.vertical, 5)
+                                .background(Color("Color"))
+                                .cornerRadius(15)
+                                .frame(width: 70, height: 50, alignment: .center)
+                        }
+                        .padding(.trailing, 5)
+                        .offset(x: 10)
+                    } else {
+                        // Fallback on earlier versions
+                    }
                     
                     Button {
                         section.showingSheet = true

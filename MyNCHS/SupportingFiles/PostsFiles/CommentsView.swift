@@ -16,12 +16,18 @@ struct CommentsView: View {
     var body: some View {
         VStack(alignment: .leading) { // Align all content to the leading edge
             ScrollView {
+                Divider()
+                    .frame(width: 320, height: 4)
+                    .overlay(.black.opacity(0.2))
+                    .padding(.bottom, 10)
+                
                 ForEach(post.comments, id: \.self) { comment in
                     CommentBubble(comment: comment)
                 }
             }
             commentInputSection
         }
+        .frame(width: 280)
         .padding() // Add padding to the entire VStack
     }
     
@@ -41,6 +47,7 @@ struct CommentsView: View {
                     .padding(10)
             }
         }
+        .frame(width: 280)
         .padding(.horizontal)
         .padding(.vertical, 10)
         .background(Color("Light Blue"))
@@ -66,7 +73,7 @@ struct CommentBubble: View {
             VStack(alignment: .leading) { // Align the commenter name and text to the leading edge
                 Text(comment.commenterName)
                     .font(Font.custom("Quicksand-Medium", size: 15))
-                    .foregroundColor(.blue)
+                    .foregroundColor(Color("Color"))
                 
                 Text(comment.text)
                     .padding(17)
@@ -81,6 +88,4 @@ struct CommentBubble: View {
         .padding(.vertical, 5)
     }
 }
-
-
 

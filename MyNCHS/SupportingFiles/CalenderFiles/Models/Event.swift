@@ -61,18 +61,30 @@ struct Event: Identifiable {
     // All the events preloaded into the calendar
     static var sampleEvents: [Event] {
         return [
-            //Event(eventType: .home, date: dateFormatter.date(from: "12/16/2022")!, note: "Winter break starts"),
-            Event(eventType: .school, date: Date().diff(numDays: -3), note: "Early release wednesday"),
-            Event(eventType: .social, date: Date().diff(numDays: 0), note: "FBLA North Creek Champions Challenge"),
-            Event(eventType: .school, date: Date().diff(numDays: 4), note: "Early release wednesday"),
+            Event(eventType: .school, date: Date().diff(numDays: -1), note: "Early release wednesday"),
+            Event(eventType: .social, date: Date().diff(numDays: -1), note: "FBLA Day 1"),
+            Event(eventType: .social, date: Date().diff(numDays: 0), note: "FBLA Day 2"),
+            Event(eventType: .social, date: Date().diff(numDays: 1), note: "FBLA Day 3"),
+            Event(eventType: .social, date: Date().diff(numDays: 2), note: "FBLA Day 4"),
+            Event(eventType: .school, date: Date().diff(numDays: 6), note: "Early release wednesday"),
             Event(eventType: .social, date: Date().diff(numDays: 0), note: "FBLA Mobile Application Development Presentation"),
+            Event(eventType: .school, date: Date().diff(numDays: 11), note: "Advanced Placement Testing Starts"),
+            Event(eventType: .sport, date: Date().diff(numDays: 5), note: "Varsity Girls Golf vs. Eastlake"),
+            Event(eventType: .sport, date: Date().diff(numDays: 5), note: "Varsity Girls Tennis vs. Woodinville"),
+            Event(eventType: .sport, date: Date().diff(numDays: 0), note: "Varsity Track vs. Inglemoor"),
+            Event(eventType: .sport, date: Date().diff(numDays: 4), note: "Varsity Boys Baseball vs. Inglemoor"),
+            Event(eventType: .sport, date: Date().diff(numDays: 0), note: "Varsity Girls Tennis vs. Inglemoor"),
+            Event(eventType: .school, date: Date().diff(numDays: 0), note: "Varsity Boys Soccer vs. Woodinville"),
+            Event(eventType: .sport, date: Date().diff(numDays: 1), note: "Varsity Girls Softball vs. Skyline"),
+            Event(eventType: .sport, date: Date().diff(numDays: 1), note: "Varsity Boys Baseball vs. Mount Si"),
+            Event(eventType: .school, date: Date().diff(numDays: 8), note: "AP Procters Needed"),
+            Event(eventType: .school, date: Date().diff(numDays: 7), note: "Cap and Gown Delivery - Seniors"),
             Event(eventType: .school, date: Date().diff(numDays: 11), note: "AP Government & Politics Final Exam"),
             Event(eventType: .school, date: Date().diff(numDays: 5), note: "AP Statistics Final Exam"),
             Event(eventType: .school, date: Date().diff(numDays: 5), note: "AP Calculus BC Final Exam"),
-            Event(eventType: .school, date: Date().diff(numDays: 20), note: "Last day of Semester"),
-            Event(eventType: .school, date: Date().diff(numDays: 11), note: "Early release wednesday"),
-            Event(eventType: .school, date: Date().diff(numDays: 18), note: "Early release wednesday"),
-            Event(eventType: .school, date: Date().diff(numDays: 25), note: "Early release wednesday"),
+            Event(eventType: .school, date: Date().diff(numDays: 13), note: "Early release wednesday"),
+            Event(eventType: .school, date: Date().diff(numDays: 20), note: "Early release wednesday"),
+            Event(eventType: .school, date: Date().diff(numDays: 27), note: "Early release wednesday"),
         ]
     }
 }

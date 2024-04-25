@@ -1,110 +1,118 @@
 //
-//  ContentView.swift
-//  ChatBotMain
+//  ChatBot.swift
+//  Quanta
 //
-//  Created by Jared Davidson on 12/19/23.
+//  Created by SaiLalith Kanumuri on 4/25/24
 //
 
 import SwiftUI
 
+@available(iOS 17.0, *)
 struct ChatBot: View {
-    @ObservedObject var viewModel: ChatViewModel
-    
-    @State private var newMessage = ""
+    @State var textInput = ""
+    @State var logoAnimating = false
+    @State var timer: Timer?
+    @State var chatService = ChatService()
     
     var body: some View {
         VStack {
             HStack(spacing: 20) {
                 ZStack(alignment: .leading) {
-                    Color.black.opacity(0.05)
+                    Color.black
                         .cornerRadius(30)
 
                     VStack(alignment: .leading) {
-                        Text("GPT")
-                            .font(Font.custom("Quicksand-Bold", size: 30))
-                            .foregroundColor(.black)
-                            .padding(.leading, 8)
+                        Image(.geminiLogo)
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 100, height: 50)
+                            .opacity(logoAnimating ? 0.5 : 1)
+                            .animation(.easeInOut, value: logoAnimating)
                     }
                     .padding()
                 }
-                .frame(width: 370, height: 80, alignment: .leading)
+                .frame(width: 370, height: 50, alignment: .leading)
             }
             .padding()
             
-            MessagesListView(messages: viewModel.messages) // Display chat messages
+            ScrollViewReader(content: { proxy in
+                ScrollView {
+                    ForEach(chatService.messages) { chatMessage in
+                        chatMessageView(chatMessage)
+                    }
+                    .frame(width: 370)
+                }
+                .onChange(of: chatService.messages) { _, _ in
+                    guard let recentMessage = chatService.messages.last else { return }
+                    DispatchQueue.main.async {
+                        withAnimation {
+                            proxy.scrollTo(recentMessage.id, anchor: .bottom)
+                        }
+                    }
+                }
+                .onChange(of: chatService.loadingResponse) { _, newValue in
+                    if newValue {
+                        startLoadingAnimation()
+                    } else {
+                        stopLoadingAnimation()
+                    }
+                }
+            })
             
             HStack {
-                // Custom text field created below
-                CustomTextField(placeholder: Text("Message"), text: $newMessage)
+                CustomTextField(placeholder: Text("Message"), text: $textInput)
                     .frame(height: 52)
                     .disableAutocorrection(true)
 
                 // Uses the message manager to send the message to Firestore
                 Button(action: sendMessage) {
                     Image(systemName: "paperplane.fill")
-                        .foregroundColor(Color("Color"))
-                        .padding(10)
+                        .foregroundColor(.white)
                 }
             }
-            .padding(.horizontal)
+            .padding(.horizontal, 20)
             .padding(.vertical, 10)
-            .background(Color("Light Blue"))
+            .background(.black)
+            .frame(width: 370)
             .cornerRadius(20)
             .padding()
-            
         }
-        .onAppear {
-            viewModel.setupOpenAI() // Initialize OpenAI when the view appears
+        .foregroundStyle(.white)
+        .padding()
+        .background {
+            ZStack {
+                Color.black.opacity(0.5)
+            }
+            .ignoresSafeArea()
+        }
+    }
+    
+    @ViewBuilder func chatMessageView(_ message: ChatMessage) -> some View {
+        ChatBubble(direction: message.role == .model ? .left : .right) {
+            Text(message.message)
+                .padding(17)
+                .font(Font.custom("Quicksand-Medium", size: 15))
+                .foregroundColor(.black)
+                .background(message.role == .model ? Color.white : Color("Light Blue"))
+                .cornerRadius(30)
+                .padding(.bottom, 5)
         }
     }
     
     func sendMessage() {
-        guard !newMessage.isEmpty else { return }
-        viewModel.sendUserMessage(newMessage) // Send user's message to view model
-        newMessage = "" // Clear the input field
+        chatService.sendMessage(textInput)
+        textInput = ""
     }
-}
 
-struct MessagesListView: View {
-    var messages: [ChatMessage]
+    func startLoadingAnimation() {
+        timer = Timer.scheduledTimer(withTimeInterval: 0.5, repeats: true, block: { timer in
+            logoAnimating.toggle()
+        })
+    }
     
-    var body: some View {
-        List(messages) { message in
-            MessageRow(message: message) // Display individual chat messages
-        }
-        .listStyle(.plain)
-        .background(Color.clear)
+    func stopLoadingAnimation() {
+        logoAnimating = false
+        timer?.invalidate()
+        timer = nil
     }
-}
-
-struct MessageRow: View {
-    var message: ChatMessage
-
-    var body: some View {
-        HStack {
-            if message.isUser {
-                Spacer()
-                Text(message.message)
-                    .padding(17)
-                    .font(Font.custom("Quicksand-Medium", size: 15))
-                    .background(Color("Light Blue"))
-                    .cornerRadius(30)
-                    .padding(.bottom, 5)
-            } else {
-                Text(message.message)
-                    .padding(17)
-                    .font(Font.custom("Quicksand-Medium", size: 15))
-                    .background(Color.black.opacity(0.05))
-                    .cornerRadius(30)
-                    .padding(.bottom, 5)
-                Spacer()
-            }
-        }
-    }
-}
-
-struct ChatMessage: Identifiable {
-    var id = UUID()
-    var message: String
-    var isUser: Bool
 }

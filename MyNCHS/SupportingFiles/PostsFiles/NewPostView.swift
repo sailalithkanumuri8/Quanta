@@ -95,8 +95,8 @@ struct NewPostView: View {
     // Function to add the post
     func addPost() {
         guard !text.isEmpty else { return }
-        let profileImageURL = URL(string: "https://media.licdn.com/dms/image/D5603AQHMbKAU60Dhmw/profile-displayphoto-shrink_800_800/0/1706942629260?e=2147483647&v=beta&t=CRQlQGHbFPhNX5ko-TCE_4s1vpcX7zp7v7CxKuv-TeE") // Replace with your desired profile image URL
-        let newPost = Post(username: "Sai Lalith", text: text, imageURL: selectedImageURL, ProfileImageURL: profileImageURL)
+        let profileImageURL = URL(string: "https://media.licdn.com/dms/image/D4E03AQG27ClpUX8D4g/profile-displayphoto-shrink_200_200/0/1677361714865?e=2147483647&v=beta&t=xk-Fj8mQfGADS2sn3xnKCaGNw_UyFlH6xoM66IgOH9o")
+        let newPost = Post(username: "Sai Lalith Kanumuri", text: text, imageURL: selectedImageURL, ProfileImageURL: profileImageURL)
         posts.append(newPost)
         text = ""
         selectedImageURL = nil

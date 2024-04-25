@@ -40,11 +40,28 @@ struct People: View {
                         Text("Network")
                             .font(Font.custom("Quicksand-Bold", size: 30))
                             .frame(width: 340, alignment: .leading)
-                            .offset(x: 25)
+                            .offset(x: 65)
                             .padding(.bottom, 10)
                             .padding(.top, 25)
                         
                         Spacer()
+                        
+                        if #available(iOS 17.0, *) {
+                            NavigationLink(destination: ChatBot()) {
+                                Text("Gemini")
+                                    .font(Font.custom("Quicksand-Bold", size: 10))
+                                    .foregroundColor(.white)
+                                    .padding(.horizontal, 10)
+                                    .padding(.vertical, 5)
+                                    .background(Color("Color"))
+                                    .cornerRadius(15)
+                                    .frame(width: 70, height: 50, alignment: .center)
+                            }
+                            .padding(.trailing, 5)
+                            .offset(x: -60, y: 10)
+                        } else {
+                            // Fallback on earlier versions
+                        }
                         
                         // User profile image
                         NavigationLink(destination: Info(isCalendar: false)) {
@@ -52,7 +69,7 @@ struct People: View {
                                 .aspectRatio(contentMode: .fit)
                                 .frame(width: 50, height: 50, alignment: .center)
                                 .cornerRadius(30)
-                                .offset(x: -22, y: 8)
+                                .offset(x: -67, y: 8)
                         }
                     }
                     

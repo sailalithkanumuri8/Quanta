@@ -19,15 +19,15 @@ struct Opportunities: View {
     // Current instance of the user on the app
     private let user = GIDSignIn.sharedInstance.currentUser
     let internships: [Opportunity] = [
-        Opportunity(image: "Internship1", title: "Microsoft Software Engineering Internship", description: "Join Microsoft's internship program to work on cutting-edge projects in a collaborative environment.\n\nRequirements:\n• Strong programming skills in Java, C++, or Python\n• Familiarity with software development methodologies\n• Enrolled in a relevant degree program (Computer Science, Engineering, etc.)", applyLink: "https://example.com"),
-        Opportunity(image: "Internship2", title: "WPP Marketing Internship", description: "Become part of a marketing team and assist with social media campaigns, market research, and marketing strategies. Develop visual content for various marketing materials, including advertisements, brochures, and social media posts.\n\nRequirements:\n• Strong communication and creative skills\n• Proficiency in graphic design tools (Adobe Photoshop, Illustrator, etc.)\n• Enrolled in a relevant degree program (Marketing, Communications, etc.)", applyLink: "https://example.com"),
+        Opportunity(image: "Internship1", title: "Microsoft Software Engineering Internship", description: "Join Microsoft's internship program to work on cutting-edge projects in a collaborative environment.\n\nRequirements:\n• Strong programming skills in Java, C++, or Python\n• Familiarity with software development methodologies\n• Enrolled in a relevant degree program (Computer Science, Engineering, etc.)", applyLink: "https://jobs.careers.microsoft.com/us/en/job/1577325/Software-Engineering---Internship-Opportunities"),
+        Opportunity(image: "Internship2", title: "WPP Marketing Internship", description: "Become part of a marketing team and assist with social media campaigns, market research, and marketing strategies. Develop visual content for various marketing materials, including advertisements, brochures, and social media posts.\n\nRequirements:\n• Strong communication and creative skills\n• Proficiency in graphic design tools (Adobe Photoshop, Illustrator, etc.)\n• Enrolled in a relevant degree program (Marketing, Communications, etc.)", applyLink: "https://www.wpp.com/people/careers/current-opportunities/current-network-opportunities"),
         Opportunity(image: "Internship3", title: "Nvidia Data Science Internship", description: "Gain hands-on experience in data analysis, machine learning, and statistical modeling while contributing to data-driven decisions.\n\nRequirements:\n• Proficiency in statistical analysis tools (R, Python, etc.)\n• Familiarity with machine learning algorithms\n• Enrolled in a relevant degree program (Statistics, Data Science, etc.)", applyLink: "https://example.com"),
     ]
     
     let research: [Opportunity] = [
-        Opportunity(image: "Research1", title: "Astrophysics Research Assistant at UW", description: "Work alongside professors and researchers on cutting-edge astrophysics projects, including data analysis and theoretical modeling.\n\nRequirements:\n• Strong mathematical and analytical skills\n• Familiarity with astrophysics concepts and theories\n• Enrolled in a relevant degree program (Physics, Astronomy, etc.)", applyLink: "https://example.com"),
+        Opportunity(image: "Research1", title: "Astrophysics Research Assistant at UW", description: "Work alongside professors and researchers on cutting-edge astrophysics projects, including data analysis and theoretical modeling.\n\nRequirements:\n• Strong mathematical and analytical skills\n• Familiarity with astrophysics concepts and theories\n• Enrolled in a relevant degree program (Physics, Astronomy, etc.)", applyLink: "https://www.indeed.com/viewjob?jk=44c858b7f7c2f608&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"),
         Opportunity(image: "Research2", title: "Computer Science Researcher at UNC Chapel Hill", description: "Participate in computer science research projects focusing on areas such as artificial intelligence, machine learning, and cybersecurity.\n\nRequirements:\n• Strong programming skills in languages like Python, Java, or C++\n• Knowledge of machine learning algorithms and techniques\n• Enrolled in a relevant degree program (Computer Science, Information Technology, etc.)", applyLink: "https://example.com"),
-        Opportunity(image: "Research3", title: "AI Researcher at Georgia Tech", description: "Contribute to groundbreaking research in artificial intelligence, including algorithm development, computational modeling, and application development.\n\nRequirements:\n• Strong background in mathematics and algorithms\n• Proficiency in programming languages such as Python, Java, or C++\n• Enrolled in a relevant degree program (Computer Science, Engineering, etc.)", applyLink: "https://example.com")
+        Opportunity(image: "Research3", title: "AI Researcher at Georgia Tech", description: "Contribute to groundbreaking research in artificial intelligence, including algorithm development, computational modeling, and application development.\n\nRequirements:\n• Strong background in mathematics and algorithms\n• Proficiency in programming languages such as Python, Java, or C++\n• Enrolled in a relevant degree program (Computer Science, Engineering, etc.)", applyLink: "https://gatech.infoready4.com/#competitionDetail/1919529")
     ]
     
     let clubs: [Opportunity] = [
@@ -61,6 +61,23 @@ struct Opportunities: View {
                             .offset(x: 5, y: 10)
                         
                         Spacer()
+                        
+                        if #available(iOS 17.0, *) {
+                            NavigationLink(destination: ChatBot()) {
+                                Text("Gemini")
+                                    .font(Font.custom("Quicksand-Bold", size: 10))
+                                    .foregroundColor(.white)
+                                    .padding(.horizontal, 10)
+                                    .padding(.vertical, 5)
+                                    .background(Color("Color"))
+                                    .cornerRadius(15)
+                                    .frame(width: 70, height: 50, alignment: .center)
+                            }
+                            .padding(.trailing, 5)
+                            .offset(x: -10, y: 10)
+                        } else {
+                            // Fallback on earlier versions
+                        }
                         
                         // Dipslays user's profile image
                         NavigationLink(destination: Info(isCalendar: false)) {

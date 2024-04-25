@@ -1,5 +1,5 @@
 {
-  "originHash" : "e3cbdf943b96c5ab72847c69d7bead11e08b9bbcb834b98f2d724558f8fa8814",
+  "originHash" : "5b3f04d3c68ff9b4c3bb235bae8890cd21ea402ac42cc05221cc5d8d321b09d3",
   "pins" : [
     {
       "identity" : "abseil-cpp-swiftpm",
@@ -35,6 +35,15 @@
       "state" : {
         "revision" : "5c4893c55f9d6114e2bb7c691d7ffd81208ac713",
         "version" : "10.0.0"
+      }
+    },
+    {
+      "identity" : "generative-ai-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/google/generative-ai-swift.git",
+      "state" : {
+        "revision" : "584b1e9a8561716a34b16b8729ca9b85a60f0f95",
+        "version" : "0.5.0"
       }
     },
     {
@@ -119,21 +128,30 @@
       }
     },
     {
-      "identity" : "openaiswift",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/adamrushy/OpenAISwift.git",
-      "state" : {
-        "revision" : "ca66fb720d6ebb657601db5a0852b830ae310a4c",
-        "version" : "1.4.1"
-      }
-    },
-    {
       "identity" : "promises",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/google/promises.git",
       "state" : {
         "revision" : "e70e889c0196c76d22759eb50d6a0270ca9f1d9e",
         "version" : "2.3.1"
+      }
+    },
+    {
+      "identity" : "sdwebimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/SDWebImage.git",
+      "state" : {
+        "revision" : "f6afa0132961d593f07970d84e2d8b588c29ea04",
+        "version" : "5.19.1"
+      }
+    },
+    {
+      "identity" : "sdwebimageswiftui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/SDWebImageSwiftUI",
+      "state" : {
+        "revision" : "22423b017b99ab8ac44e29e6372f571f782af6e4",
+        "version" : "3.0.2"
       }
     },
     {

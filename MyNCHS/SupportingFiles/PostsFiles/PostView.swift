@@ -28,9 +28,13 @@ struct PostView: View {
                         .frame(width: 40, height: 40)
                         .clipShape(Circle())
                 }
-                Text(post.username)
-                    .font(Font.custom("Quicksand-Bold", size: 15))
+                NavigationLink(destination: People()) {
+                    Text(post.username)
+                        .font(Font.custom("Quicksand-Bold", size: 15))
+                        .foregroundColor(.black)
+                }
             }
+            
             Text(post.text)
                 .padding(.bottom, 4)
                 .font(Font.custom("Quicksand-Regular", size: 15))
@@ -111,7 +115,7 @@ struct PostView: View {
         }
         .padding(20)
         .background(Color.white)
-        .cornerRadius(10)
+        .cornerRadius(20)
     }
 }
 

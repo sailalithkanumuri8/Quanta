@@ -16,7 +16,7 @@ struct Menu: View {
     var body: some View {
         TabView(selection: $selection) {
             // When clicked on this button, it will go to the home page
-            Home().navigationTitle("x")
+            PostsView().navigationTitle("x")
                 .tabItem {
                     if selection == 0 {
                         Image(systemName: "house.fill")
